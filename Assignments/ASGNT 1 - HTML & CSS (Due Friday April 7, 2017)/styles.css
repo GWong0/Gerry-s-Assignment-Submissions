@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.BrainStation {
+    height: 1000px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* START CODING BELOW */
+/* div background image for the photo */
+
+.Header{
+    background-image: url("assets/images/header-background.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0px;
+
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+.NavBar {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+#NavBar {
+    height: 80px;
+  
+}
+
+.Header h1 {
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+/* Sidebar                              */
+
+.Sidebar {
+    position: absolute;
+    height: 180px;
+    width: 180px; 
+    margin-top: 11px;
+    display: inline-block; 
+}
+
+.Sidebar a:hover{
+    color: orange;
+}
+
+.Sidebar li {
+    margin: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*              PTFT                  */
+
+.PTFT {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.PTFT h2 {
+    color: mediumblue;
+    text-align: left;
+    margin-left: 360px;
+}
+
+
+
+.WDI, .UEI, .DM, .IOSD {
+    display: inline-block;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 15px;
+    margin: -5px 5px;
+    padding: 10px;
+}

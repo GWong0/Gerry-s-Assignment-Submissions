@@ -1,0 +1,74 @@
+* {
+    vertical-align: top;
+    
+}
+
+.Page {
+    text-align: center;
+    
+}
+
+.WPT, .Menu, .Content, .Sidebar, .MedFoot, .SmallFoot{
+    border: 1px solid black;
+}
+
+.Menu p, .Content p, .Sidebar p {
+    font-size: 16px;
+}
+
+
+.HeadContainer {
+    display: block;
+}
+
+        .WPT {
+            margin: 0 auto;
+            width: 820px;
+            font: 32px;
+            padding: 10px
+        }
+
+.MidContainer {
+    display: block;
+    margin: 10px 20px;
+
+}
+
+        .Menu {
+            display: inline-block;
+            width: 170px;
+            padding: 5px;
+            
+        }
+
+        .Content {
+            display: inline-block;
+            width: 480px;
+            padding: 15px;
+            
+
+        }
+
+        .Sidebar {
+            display: inline-block;
+            width: 124px;
+            padding: 10px;
+
+        }
+
+.BotContainer {
+    display: block;
+}
+
+        .MedFoot { 
+            display: inline-block;
+            width: 412px;
+            padding: 5px;
+        }
+
+        .SmallFoot {
+            display: inline-block;
+            width: 412px;
+            padding: 5px;
+        }
+
